@@ -126,6 +126,10 @@ li {
 	font-size: 16px;
 }
 
-.cerveny-text{
+.cerveny-text {
 	color: red;
+}
+
+.vetsi-text {
+	font-size: 17px;
 }

@@ -14,3 +14,8 @@ function changeRed() {
     document.querySelector('.elipsa').classList.toggle("cerveny-text");
 }
 
+//větší po kliknutí
+
+function changeBald() {
+    document.querySelector('.elipsa').classList.toggle("vetsi-text");
+}

@@ -19,3 +19,18 @@ function changeRed() {
 function changeBald() {
     document.querySelector('.elipsa').classList.toggle("vetsi-text");
 }
+
+//audiosoubor
+
+function startAudio() {
+    let audioFile = document.getElementById('zvukovaStopa');
+    audioFile.play()
+}
+
+
+//let zvuk;
+
+//zvuk=document.querySelector("#zvuk");
+
+
+

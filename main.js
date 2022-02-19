@@ -17,7 +17,7 @@ function changeRed() {
 //větší po kliknutí
 
 function changeBald() {
-    document.querySelector('.elipsa').classList.toggle("vetsi-text");
+    document.querySelector('.elipsa').classList.add("vetsi-text");
 }
 
 //audiosoubor

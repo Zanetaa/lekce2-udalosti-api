@@ -16,9 +16,14 @@ function changeRed() {
 
 //větší po kliknutí
 
-function changeBald() {
+/*function changeBald() {
     document.querySelector('.elipsa').classList.add("vetsi-text");
-}
+}*/
+ 
+
+function changeFontSize() {
+   document.querySelector('.elipsa').style.fontSize= fontSize + "1px";
+    }
 
 //audiosoubor
 
@@ -49,12 +54,6 @@ function loudOne() {
 
 function replay() {
     let audioFile = document.getElementById('zvukovaStopa');
-    audioFile.currentTime = 0
+    audioFile.currentTime = 0;
 }
-
-//let zvuk;
-
-//zvuk=document.querySelector("#zvuk");
-
-
 
